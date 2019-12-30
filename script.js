@@ -14,6 +14,7 @@ $('.menu_items').on('click', function() {
 
 
 
+console.log("Nav loaded");
 // Scroll-fix til IOS
 
 var scroll = window.requestAnimationFrame ||
@@ -23,6 +24,7 @@ var scroll = window.requestAnimationFrame ||
 
 var elementsToShow = document.querySelectorAll('.show-on-scroll');
 
+console.log("requestAnimationFrame loaded");
 // tildeler class når elemenet er synligt
 
 function loop() {
@@ -39,6 +41,7 @@ function loop() {
 }
 
 loop();
+console.log("scroll-loop loaded");
 
 // Helper function from: http://stackoverflow.com/a/7557433/274826
 function isElementInViewport(el) {
@@ -56,6 +59,7 @@ function isElementInViewport(el) {
       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
   );
 }
+console.log("isElementInViewport loaded");
 
 // delay på page loag, så menu når at lukke
 
@@ -68,3 +72,4 @@ $(function() {
     }, 600);
   });
 });
+console.log("Fosinket Pageload aktiv");
