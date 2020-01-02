@@ -264,10 +264,10 @@ img {
 /*  text-styling */
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2vw;
+  font-size: 1.0vw;
   font-weight: lighter;
-  margin: 1vw;
-  padding-top: 1vw;
+  margin: 1.2vw;
+  padding: 1vw;
 }
 
 h1 {
@@ -327,6 +327,23 @@ h3 {
 .ul_main {
   margin: 0;
   padding: 0;
+}
+
+.inline1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  letter-spacing: 1px;
+  word-spacing: -0.6px;
+  padding: 1vw;
+}
+
+.inline2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8vw;
+  letter-spacing: 1px;
+  word-spacing: -0.6px;
+  list-style: none;
+  padding: 0.5vw;
 }
 
 .udd1 {
@@ -403,6 +420,13 @@ h3 {
 
 .white2 {
   height: 1vw;
+}
+
+.seperator {
+  border-top: 1px solid #864131;
+  width: 20vw;
+  margin: auto;
+  opacity: 15%;
 }
 
 /* Animationer */
@@ -487,7 +511,7 @@ h3 {
 
 @media only screen and (min-width: 800px) {
   .content_inner {
-    padding: 50px 20%;
+    padding: 50px 15%;
   }
 
   /* Scroll indicator */
@@ -539,6 +563,6 @@ h3 {
 
   .full-page {
     width: 95vw;
-    margin-left: -30%;
+    margin-left: -20%;
   }
 }
