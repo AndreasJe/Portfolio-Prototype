@@ -403,6 +403,14 @@ h3 {
   text-align: center;
 }
 
+#test_box {
+  margin: auto;
+  width: 15vw;
+  border: 1px solid #864131;
+  text-align: center;
+  border-radius: 1vw;
+}
+
 .menu_indicator {
   position: absolute;
   left: 7vw;

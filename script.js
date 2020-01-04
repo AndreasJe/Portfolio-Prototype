@@ -73,3 +73,14 @@ $(function() {
   });
 });
 console.log("Fosinket Pageload aktiv");
+
+document.querySelector("#test_box").addEventListener("click", visTest);
+console.log("vis test");
+
+function visTest() {
+
+  document.querySelector('#pointClick_sound').volume = 1;
+  document.querySelector('#pointClick_sound').play();
+  console.log("lyd - spil pling-lyd");
+
+}

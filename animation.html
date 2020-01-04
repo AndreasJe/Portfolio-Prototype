@@ -38,11 +38,166 @@
       <div class="content_inner">
         <div class="block show-on-scroll">
 
-          <img src="assets/figur_m_bord.svg" alt="Eksempel" class="full-page"> </section>
+
+          <div class="block show-on-scroll">
+            <div class="title">
+              <h1>Udviklingen af eget spil</h1>
+            </div>
+
+            <div class="hor_wrapper">
+
+
+              <div class="boks border">
+                <h3>Idegenerering:</h3>
+                <div class="white2"></div>
+                <p>I denne process har vi haft fokus på diametrale modsætninger.<br>
+                  Nedskrivning af to forskellige mind-maps, og derefter søge en mulighed for at kombinerer de to.
+                  Helst emner, som tilfældigvis passer godt sammen og giver en sjov vinkel. Fx. At gå jagt efter grillkyllinger i skoven.
+
+                  For at hjælper kan man opstille en ordliste og lave en tilfældig steg, som her:<img src="animation/ide.svg" alt="Ide Eksempel">
+
+                </p>
+                <div class="white2"></div>
+                <h3>Figur Design:</h3>
+                <div class="white2"></div>
+                <p>Skabelsen af en god karakter, kræver at man følger nogle retningslinjer.<br>Karakteren har en symbolik I sine former, som kendetegner deres egenskaber.
+                  Man ser ofte den onde karakter være spids og skarp I sit design, mens den gode oftest designes blødt og rundt.<br>
+                  Her har vi fokuseret på hvilke former, der skabte det rigtige udtryk og hvordan farver hjælper en på vej.<br><br>Jeg brugte meget tid på at lege med figur design I Illustrator, før jeg fastsatte mig på en ide.
+                  Derfor er min designprocess rentegnet fra starten og klar til at blive eksporteret som SVG.<br>Da jeg først fik fastsat former, fik jeg lavet uskyldige Anton, som giver grobund for Fie's design.
+
+                  <div class="white2"></div><img src="animation/figur.svg" alt="figur Eksempel">
+                  <div class="white2"></div>
+                  <p>
+                    Jeg har valgt ikke at definere deres personlighed på farverne, men derimod ved at give dem detaljer i udtryk, kropsholdning og omgivelser. Derfor har hele mit design samme udtryk hele vejen igennem processen.
+
+
+
+                  </p>
+                  <div class="white2"></div>
+                  <h3>Baggrundsdesign:</h3>
+                  <div class="white2"></div>
+                  <p>Her fokuser vi meget på komposition og placering af elementer, så vi skaber en dybde eller symbolik.<br>
+
+                    Vi har arbejdet med tre key points:</p>
+                  <ul class="ul_main">
+                    <li class="udd1"><i class="icon fa fa-angle-double-right fa-1x"></i> &nbsp;Rule of Thirds:<ul>
+                        <li class="udd2">Placeringen af et objekt I det gyldne snit. Her er der tale om de tre horisontale og vertikale rækker.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="ul_main">
+                    <li class="udd1"><i class="icon fa fa-angle-double-right fa-1x"></i> &nbsp;Focal Point:<ul>
+                        <li class="udd2">Bestem hvor blikket falder ved at ændre på kontrasten I et billede. Påvirkes med farver, opacity og blur</li>
+                      </ul>
+                    </li>
+                  </ul>
+
+                  <ul class="ul_main">
+                    <li class="udd1"><i class="icon fa fa-angle-double-right fa-1x"></i> &nbsp;Atmopheric Perspective:<ul>
+                        <li class="udd2">Skab en baggrund, mellemgrund og forgrund. Derved får man dybde I billedet</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <div class="white"></div>
+
+
+              </div>
+              <div class="boks border">
+                <h3>Aktivitetsdiagram:</h3>
+                <div class="white2"></div>
+                <p>I processen skulle vi optegne et diagram for spillets handlinger og forløb.<br>Her starter man med simpelt at optegne forskellige muligheder, fx hvad skal der ske når man vinder eller dør.
+                  Det overordnede gameplay bestemmes her, men man rykker videre til næste trin for at forbedrede koden.<br>
+                  I den mere udvidede version; <strong>State Machine Diagrammet</strong> begynder vi på at visualisere funktioner, så de mere slavisk kan overføres til koden. Eksempelvis kan man påskrive Nulstil liv og point ved start, da man ved et
+                  tryk på Restart Game skal have resettet disse. Disse overføres slavisk til koden I kommentarer, og derved har man sit state machine diagram I kodeform, og kan nydeligt og redeligt begynde at tilføje de forskellige stykker kode.
+                </p>
+                <div class="white2"></div><img src="animation/aktivitetsdiagram.svg" alt="Eksempel på Aktivitetsdiagram">
+
+
+                <div class="white"></div>
+
+                <h3>Document Object Model; DOM</h3>
+                <div class="white2"></div>
+                <p>DOM er en platform, som er "sprog-neutral".<br>HTML koden har flere ansigter, og det er browserens opgave at oversætte koden til et web-site. Her struktureres HTML koden, så den loades og renderes korrekt i en browser. Her er der
+                  altså tale om en lagret repræsentation, som kan påvirkes med andre kodesprog. Her kender vi CSS fra tidligere, som bestemmer styling af elementer.</p>
+
+                <div class="white"></div>
+
+                <h3>Javascript</h3>
+                <div class="white2"></div>
+                <p>Java kender man fra applikationssoftware på tværs af platformer. Javascript er browser-programmer.<br>Det er hjernen bag et givent site. I HTML koden kan vi kæde fx Nav sammen med ID's og Classes, og på den måde få interaktive
+                  menupunkter. Ved at bruge Javascript kan vi kalde på et element, ændre det og lytte efter specifikke funktioner, og påbegynde en ny på det rigtige tidspunkt.
+                  Her får vi altså en stor kontrol over vores site, hvordan det skal vises, og hvordan det skal opfører sig, når et bestemt kriterie er opfyldt. </p>
+
+                <div class="white2"></div>
+                <div id="test_box">
+                  <p>Klik på mig!</p>
+                </div>
+                <div class="white2"></div>
+
+
+                <ul class="ul_main">
+                  <li class="udd1"><i class="icon fa fa-angle-double-right fa-1x"></i> &nbsp;Her er lidt konkrete eksempler:<ul>
+                      <li class="udd2">Starte en animation, når man når bunden af sitet.</li>
+                      <li class="udd2">Starte en animation, når et element er indenfor viewport.</li>
+                      <li class="udd2">Vise en copy-tekst, hvis en bruger gør en forkert handling.</li>
+                      <li class="udd2">Starte en lyd, når man går ind på et bestemt side. </li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="white"></div>
+
+                <div class="white2"></div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="block show-on-scroll">
+            <div class="white"></div>
+            <div class="title">
+              <h1>Afleveringer</h1>
+            </div>
+            <div class="ver_wrapper">
+
+              <div class="white2"></div>
+              <div class="knap block show-on-scroll">
+                <p><a href="ux/dataindsamling.pdf" class="link">03.01.01 - Dataindsamling</a></p>
+              </div>
+              <div class="knap block show-on-scroll">
+                <p><a href="https://xd.adobe.com/view/2fcd440c-9265-4be2-42f9-63934b09d182-59fc/" class="link">03.03.01 - Solo Prototype</a></p>
+              </div>
+              <div class="white2"></div>
+              <div class="knap block show-on-scroll">
+                <p><a href="ux/sprint.pdf" class="link">03.04.01 - Design Sprint</a></p>
+              </div>
+              <div class="white2"></div>
+              <div class="knap block show-on-scroll">
+                <p><a href="ux/sprint2.pdf" class="link">03.04.02 - Pitch Deck</a></p>
+              </div>
+              <div class="white2"></div>
+              <div class="knap block show-on-scroll">
+                <p><a href="https://xd.adobe.com/view/137349f1-c41d-4673-4c13-b6ab9d8858f5-6542/?fullscreen" class="link">Design Sprint Prototype</a></p>
+              </div>
+              <div class="white"></div>
+
+            </div>
+          </div>
+
+
         </div>
       </div>
     </main>
   </div>
+
+  <div id="sounds">
+    <audio src="animation/plingClick_sound.ogg" id="pointClick_sound"></audio>
+
+
+  </div>
+
   <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src="./script.js"></script>
