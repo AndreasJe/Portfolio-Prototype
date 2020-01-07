@@ -154,7 +154,7 @@ body {
 }
 
 .menu_items a:hover .icon:after {
-  border-color: #f0f0f0;
+  border-color: #864131;
 }
 
 .menu_items a:active .icon {
@@ -269,15 +269,17 @@ img {
 /*  text-styling */
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.0vw;
+  font-size: 2.5vw;
   font-weight: lighter;
   margin: 1.2vw;
-  padding: 1vw;
+  padding: 3vw;
+  letter-spacing: 1px;
+  word-spacing: -0.6px;
 }
 
 h1 {
   font-family: 'Major Mono Display', monospace;
-  font-size: 4vw;
+  font-size: 5vw;
   color: #864131;
   font-weight: normal;
   text-decoration: none solid rgb(68, 68, 68);
@@ -295,7 +297,7 @@ h1 {
 
 h3 {
   font-family: 'Major Mono Display', monospace;
-  font-size: 2vw;
+  font-size: 3vw;
   color: #864131;
   font-weight: normal;
   text-decoration: none solid rgb(68, 68, 68);
@@ -323,7 +325,7 @@ pre {
 
 .link {
   font-family: 'Major Mono Display', monospace;
-  font-size: 1.7vw;
+  font-size: 3.7vw;
   color: #864131;
   text-decoration: none;
   padding: 1vw;
@@ -369,7 +371,8 @@ pre {
 
 .udd1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5vw;
+  font-size: 2.3vw;
+  font-weight: bold;
   letter-spacing: 1px;
   word-spacing: -0.6px;
   list-style: none;
@@ -378,14 +381,16 @@ pre {
 
 .udd2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1vw;
+  font-size: 2vw;
+  font-weight: lighter;
   padding: 0.5vw;
   margin: 0.5vw;
 }
 
 .udd3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.85vw;
+  font-size: 1.6vw;
+  font-weight: normal;
   padding: 0.2vw;
   margin: 0.5vw;
 }
@@ -411,12 +416,20 @@ pre {
 }
 
 .boks {
-  width: 90%;
+  width: 85%;
   margin: auto;
 }
 
+.boks2 {
+  width: 96%;
+}
+
+.boks2 .ul_main {
+  margin-left: 2vw;
+}
+
 .boks_wide {
-  width: 100%
+  width: 96%
 }
 
 .knap {
@@ -475,6 +488,14 @@ iframe {
   width: 96%;
   margin: auto;
   border-top: 1px solid #864131;
+}
+
+/* VIDEO PLAYER styling */
+video {
+  width: 100%;
+  height: auto;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
 }
 
 /* Animationer */
@@ -660,6 +681,81 @@ iframe {
     width: 47%;
     margin: 0;
   }
+
+  /*  text-styling */
+  p {
+    font-size: 1.0vw;
+    font-weight: lighter;
+    margin: 1.2vw;
+    padding: 1vw;
+  }
+
+  h1 {
+    font-size: 4vw;
+    letter-spacing: 1px;
+    word-spacing: -0.6px;
+  }
+
+  h3 {
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    padding: 1vw;
+    letter-spacing: 1px;
+    word-spacing: -0.6px;
+  }
+
+  /* Kode eksempler */
+  pre {
+    width: 80%;
+    font-size: 1.0vw;
+  }
+
+  .link {
+    font-size: 1.7vw;
+    text-decoration: none;
+    padding: 1vw;
+  }
+
+  .inline1 {
+    font-size: 1vw;
+    letter-spacing: 1px;
+    word-spacing: -0.6px;
+    padding: 1vw;
+    text-align: center;
+    list-style: none;
+  }
+
+  .inline2 {
+    font-size: 0.8vw;
+    letter-spacing: 1px;
+    word-spacing: -0.6px;
+    list-style: none;
+    padding: 0.5vw;
+    text-align: center;
+  }
+
+  .udd1 {
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    word-spacing: -0.6px;
+    list-style: none;
+    margin: 2vw;
+  }
+
+  .udd2 {
+    font-size: 1vw;
+    padding: 0.5vw;
+    margin: 0.5vw;
+  }
+
+  .udd3 {
+    font-size: 0.85vw;
+    padding: 0.2vw;
+    margin: 0.5vw;
+  }
 }
 
 /* Desktop og UW */
@@ -739,5 +835,80 @@ iframe {
   .boks {
     width: 47%;
     margin: 0;
+  }
+
+  /*  text-styling */
+  p {
+    font-size: 1.0vw;
+    font-weight: lighter;
+    margin: 1.2vw;
+    padding: 1vw;
+  }
+
+  h1 {
+    font-size: 4vw;
+    letter-spacing: 1px;
+    word-spacing: -0.6px;
+  }
+
+  h3 {
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    padding: 1vw;
+    letter-spacing: 1px;
+    word-spacing: -0.6px;
+  }
+
+  /* Kode eksempler */
+  pre {
+    width: 80%;
+    font-size: 1.0vw;
+  }
+
+  .link {
+    font-size: 1.7vw;
+    text-decoration: none;
+    padding: 1vw;
+  }
+
+  .inline1 {
+    font-size: 1vw;
+    letter-spacing: 1px;
+    word-spacing: -0.6px;
+    padding: 1vw;
+    text-align: center;
+    list-style: none;
+  }
+
+  .inline2 {
+    font-size: 0.8vw;
+    letter-spacing: 1px;
+    word-spacing: -0.6px;
+    list-style: none;
+    padding: 0.5vw;
+    text-align: center;
+  }
+
+  .udd1 {
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    word-spacing: -0.6px;
+    list-style: none;
+    margin: 2vw;
+  }
+
+  .udd2 {
+    font-size: 1vw;
+    padding: 0.5vw;
+    margin: 0.5vw;
+  }
+
+  .udd3 {
+    font-size: 0.85vw;
+    padding: 0.2vw;
+    margin: 0.5vw;
   }
 }
