@@ -679,7 +679,7 @@ video {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 20px;
     letter-spacing: 2px;
     color: #dacec1;
     transition: color .2s;
@@ -850,7 +850,7 @@ video {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 13px;
     letter-spacing: 2px;
     color: #dacec1;
     transition: color .2s;
